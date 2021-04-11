@@ -1,6 +1,6 @@
 import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from "typeorm";
 
-@Entity("community")
+@Entity("pokemon")
 class Pokemon {
     @PrimaryGeneratedColumn('uuid')
     id: string;
